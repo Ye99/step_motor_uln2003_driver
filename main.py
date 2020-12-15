@@ -8,12 +8,12 @@ _step_speed_in_ms = const(2)  # The larger, the slower RPM.Either FULL_STEP or H
 
 if __name__ == '__main__':
     '''
-    IN1 -->  D5:14
-    IN2 -->  D6:12
-    IN3 -->  D7:13
-    IN4 -->  D8:15
+    IN1 -->  D8:15
+    IN2 -->  D7:13
+    IN3 -->  D6:12
+    IN4 -->  D5:14
     '''
-    motor = driver.create(Pin(14, Pin.OUT), Pin(12, Pin.OUT), Pin(13, Pin.OUT), Pin(15, Pin.OUT),
+    motor = driver.create(Pin(15, Pin.OUT), Pin(13, Pin.OUT), Pin(12, Pin.OUT), Pin(14, Pin.OUT),
                           delay=_step_speed_in_ms)
     motor.step(100)
     motor.step(100, -1)

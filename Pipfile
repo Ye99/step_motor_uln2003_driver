@@ -4,6 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+rshell = "*"
+esptool = "*"
 
 [packages]
 pyserial = ">=3.3,<4.0"
@@ -12,4 +14,4 @@ machine = "*"
 adafruit-ampy = "<1.1,>=1.0.5"
 
 [requires]
-python_version = "3.8"
+python_version = "3.*"
