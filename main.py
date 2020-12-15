@@ -4,8 +4,17 @@ import time
 from micropython import const
 
 _sleep_seconds = const(300)
-_step_speed_in_ms = const(2)  # The larger, the slower RPM.Either FULL_STEP or HALF_STEP
-_sweep_steps = const(30)
+_step_speed_in_ms = const(8)  # The larger, the slower RPM.Either FULL_STEP or HALF_STEP
+_sweep_steps = const(15)
+
+
+def sweep() -> None:
+    for i in range(5):
+        motor.step(_sweep_steps)
+        time.sleep(2)
+        motor.step(_sweep_steps, -1)
+        time.sleep(2)
+
 
 if __name__ == '__main__':
     '''
@@ -18,7 +27,5 @@ if __name__ == '__main__':
                           delay=_step_speed_in_ms)
 
     while True:
-        motor.step(_sweep_steps)
-        time.sleep(_sleep_seconds)
-        motor.step(_sweep_steps, -1)
+        sweep()
         time.sleep(_sleep_seconds)
