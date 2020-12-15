@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pyserial = ">=3.3,<4.0"
+docopt = "<0.7,>=0.6.2"
+machine = "*"
+adafruit-ampy = "<1.1,>=1.0.5"
+
+[requires]
+python_version = "3.8"

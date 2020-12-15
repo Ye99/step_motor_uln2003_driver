@@ -1,0 +1,72 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "db8d3849e8bc04a9df699900444a864b76aabf1b49b0791720c22381799391e0"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "adafruit-ampy": {
+            "hashes": [
+                "sha256:46cbb1ebb585c2c01b9d34625dbef618df95c4256a1fc6ac13cb13bbd4a8b6c0",
+                "sha256:cd8d6b831a1c76d712e30e224e3945428f77bb0c6cccbf06239b31aaf4d4e5b7"
+            ],
+            "index": "pypi",
+            "version": "==1.0.7"
+        },
+        "click": {
+            "hashes": [
+                "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a",
+                "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
+            ],
+            "version": "==7.1.2"
+        },
+        "docopt": {
+            "hashes": [
+                "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"
+            ],
+            "index": "pypi",
+            "version": "==0.6.2"
+        },
+        "machine": {
+            "hashes": [
+                "sha256:0a1fc0fa10d25f6565d05faece2f949dba09ee4e6dca7520c8453d498783fc9a",
+                "sha256:8f7fe1048d1946bfc5bdb20aba31ecc7800b34a9c06d3ed32c02b59d5bb4dfb4"
+            ],
+            "index": "pypi",
+            "version": "==0.0.1"
+        },
+        "pycrypto": {
+            "hashes": [
+                "sha256:f2ce1e989b272cfcb677616763e0a2e7ec659effa67a88aa92b3a65528f60a3c"
+            ],
+            "version": "==2.6.1"
+        },
+        "pyserial": {
+            "hashes": [
+                "sha256:3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb",
+                "sha256:c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0"
+            ],
+            "index": "pypi",
+            "version": "==3.5"
+        },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:0c8d1b80d1a1e91717ea7d526178e3882732420b03f08afea0406db6402e220e",
+                "sha256:587825ed60b1711daea4832cf37524dfd404325b7db5e25ebe88c495c9f807a0"
+            ],
+            "version": "==0.15.0"
+        }
+    },
+    "develop": {}
+}
